@@ -25,4 +25,3 @@ Kt = 0.317;						% DC motor torque constant [Nm/A]
 n = 1;							% Gear ratio
 K_PWM = 8.087                   % Преобразование величины напряжения
 Psi0 = 0.01;
-Ts = 0.004

@@ -23,8 +23,9 @@ B = [0;
 C = eye(3);
 D = zeros(3, 1);
 
-% %% State space models
+% State space models
 s1 = ss(A, B, C, D);
 s1.StateName = {'psi', 'theta_dot', 'psi_dot'};
 s1.InputName = {'V'};
 s1.OutputName = {'psi', 'theta_dot', 'psi_dot'};
+% 
