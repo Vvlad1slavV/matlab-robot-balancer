@@ -24,5 +24,5 @@ Kb = 0.468;						% DC motor back EMF constant [Vsec/rad]
 Kt = 0.317;						% DC motor torque constant [Nm/A]
 n = 1;							% Gear ratio
 K_PWM = 8.087                   % Преобразование величины напряжения
-Psi0 = 0.02;
+Psi0 = 0.1;
 Ts = 0.004
