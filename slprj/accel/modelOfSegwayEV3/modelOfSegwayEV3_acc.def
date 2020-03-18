@@ -1,0 +1,1 @@
+LIBRARY ../../../modelOfSegwayEV3_acc.mexw64 EXPORTS mexFunction 
