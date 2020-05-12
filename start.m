@@ -1,8 +1,7 @@
 %% Load parameters
 params;
+config;
 %% Helping variables
-alpha = n * Kt / Rm;
-beta = n * Kt * Kb / Rm + fm;
 E = [M*L*R - 2*J                    M*L^2 + Jt;
     (2*m+M)*R^2 + 2*Jk + 2*J        M*L*R];
 F = 2*[-km*ke/r   0; 
